@@ -9,11 +9,11 @@ Always building, always curious from India</h3>
 
 <p align="left"> <a href="https://twitter.com/prince27040" target="blank"><img src="https://img.shields.io/twitter/follow/prince27040?logo=twitter&style=for-the-badge" alt="prince27040" /></a> </p>
 
-- 🔭 I’m currently working on **Hsspital Managment system.**
+- 🔭 I’m currently working on **Hospital Managment system.**
 
 - 🌱 I’m currently learning **Java and golang.**
 
-- 📫 How to reach me **princeraj01234@yahoo.com**
+- 📫 to reach me **princeraj01234@yahoo.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
