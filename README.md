@@ -3,7 +3,7 @@
 💻 Confident in HTML, CSS, JS, React, MySQL, MongoDB
 🐍 Learning Python, one script at a time
 🔧 Mechanical engineering fan who ended up writing JavaScript!
-Always building, always curious. from India</h3>
+Always building, always curious from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=prince2704&label=Profile%20views&color=0e75b6&style=flat" alt="prince2704" /> </p>
 
