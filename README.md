@@ -1,5 +1,9 @@
 <h1 align="center">Hi 👋, I'm Prince Raj</h1>
-<h3 align="center">A passionate frontend developer. College student with a strong interest in web development. Confident in HTML, CSS, JavaScript, React.js, and databases like MySQL and MongoDB. Learning Python and always exploring new technologies. Passionate about mechanical engineering, with a curiosity for how code powers real-world systems. from India</h3>
+<h3 align="center">A passionate frontend developer. 🚀 2nd-year student navigating between gears & code
+💻 Confident in HTML, CSS, JS, React, MySQL, MongoDB
+🐍 Learning Python, one script at a time
+🔧 Mechanical engineering fan who ended up writing JavaScript!
+Always building, always curious. from India</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=prince2704&label=Profile%20views&color=0e75b6&style=flat" alt="prince2704" /> </p>
 
