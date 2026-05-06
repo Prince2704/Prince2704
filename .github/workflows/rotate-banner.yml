@@ -1,0 +1,41 @@
+name: Rotate Profile Banner
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  rotate-banner:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Rotate banner
+        run: python scripts/rotate_banner.py
+
+      - name: Commit updated README
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet; then
+            echo "No banner change needed."
+          else
+            git add README.md
+            git commit -m "Auto rotate profile banner"
+            git push
+          fi
