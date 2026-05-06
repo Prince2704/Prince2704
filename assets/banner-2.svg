@@ -1,0 +1,65 @@
+<svg width="1448" height="500" viewBox="0 0 1448 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="45%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22C55E"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .title {
+        font-family: Inter, Segoe UI, Arial, sans-serif;
+        font-weight: 900;
+        fill: #F8FAFC;
+      }
+      .text {
+        font-family: Inter, Segoe UI, Arial, sans-serif;
+        font-weight: 700;
+        fill: #CBD5E1;
+      }
+    </style>
+  </defs>
+
+  <rect width="1448" height="500" rx="30" fill="url(#bg)"/>
+
+  <circle cx="1160" cy="90" r="260" fill="#22C55E" opacity="0.08"/>
+  <circle cx="170" cy="430" r="240" fill="#38BDF8" opacity="0.08"/>
+
+  <rect x="70" y="70" width="1308" height="360" rx="32" fill="#061321" stroke="#16324F" stroke-width="2"/>
+
+  <text x="120" y="150" font-size="44" class="title">
+    Building clean interfaces with code ⚡
+  </text>
+
+  <text x="120" y="215" font-size="31" class="text">
+    Frontend Developer • Student • Curious Builder
+  </text>
+
+  <text x="120" y="275" font-size="28" class="text">
+    Currently working on Hospital Management System
+  </text>
+
+  <text x="120" y="325" font-size="28" class="text">
+    Learning Java, Golang and Python one script at a time
+  </text>
+
+  <g filter="url(#glow)">
+    <rect x="1030" y="145" width="250" height="190" rx="26" fill="#071827" stroke="url(#accent)" stroke-width="3"/>
+    <text x="1095" y="225" font-size="64" class="title" fill="#38BDF8">&lt;/&gt;</text>
+    <text x="1075" y="290" font-size="30" class="title">@Prince2704</text>
+  </g>
+</svg>
