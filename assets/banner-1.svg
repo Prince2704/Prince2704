@@ -1,0 +1,73 @@
+<svg width="1448" height="500" viewBox="0 0 1448 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="20%" r="80%">
+      <stop offset="0%" stop-color="#08203D"/>
+      <stop offset="45%" stop-color="#061321"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .title {
+        font-family: Inter, Segoe UI, Arial, sans-serif;
+        font-weight: 900;
+        fill: #F8FAFC;
+      }
+      .text {
+        font-family: Inter, Segoe UI, Arial, sans-serif;
+        font-weight: 700;
+        fill: #CBD5E1;
+      }
+    </style>
+  </defs>
+
+  <rect width="1448" height="500" rx="30" fill="url(#bg)"/>
+
+  <circle cx="230" cy="250" r="145" fill="#050B14" stroke="url(#accent)" stroke-width="7" filter="url(#glow)"/>
+
+  <path d="M150 322 C160 270 190 245 230 245 C270 245 302 270 314 322" stroke="#F8FAFC" stroke-width="5" stroke-linecap="round"/>
+  <path d="M178 203 C186 162 213 144 244 148 C275 152 298 170 300 204" stroke="#F8FAFC" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="205" cy="225" r="18" stroke="#F8FAFC" stroke-width="4"/>
+  <circle cx="255" cy="225" r="18" stroke="#F8FAFC" stroke-width="4"/>
+  <path d="M223 225 H237" stroke="#F8FAFC" stroke-width="4"/>
+  <path d="M202 330 L178 306 L202 282" stroke="#F8FAFC" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M258 282 L282 306 L258 330" stroke="#F8FAFC" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M238 280 L220 332" stroke="#F8FAFC" stroke-width="5" stroke-linecap="round"/>
+
+  <text x="430" y="135" font-size="42" class="title">
+    A passionate <tspan fill="#60A5FA">frontend developer</tspan> 🚀
+  </text>
+
+  <text x="430" y="195" font-size="34" class="title">
+    <tspan fill="#A855F7">2nd-year student</tspan> navigating between gears &amp; code 💻
+  </text>
+
+  <text x="430" y="255" font-size="29" class="text">
+    HTML • CSS • JavaScript • React • MySQL • MongoDB
+  </text>
+
+  <text x="430" y="305" font-size="29" class="text">
+    Learning Python 🐍, Java ☕ and Golang ⚡
+  </text>
+
+  <text x="430" y="355" font-size="29" class="text">
+    Always building, always curious from India 🇮🇳
+  </text>
+
+  <rect x="1050" y="160" width="300" height="150" rx="24" fill="#071827" stroke="#243B55" stroke-width="2"/>
+  <text x="1085" y="220" font-size="24" class="text">FOLLOW</text>
+  <text x="1085" y="270" font-size="36" class="title" fill="#3B82F6">@Prince2704</text>
+</svg>
