@@ -1,8 +1,10 @@
 <!-- PROFESSIONAL GITHUB PROFILE README -->
 
+<!-- BANNER_START -->
 <p align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="Prince Raj Developer Profile Banner" />
+  <img src="./assets/banner-1.svg" width="100%" alt="Prince Raj Developer Banner" />
 </p>
+<!-- BANNER_END -->
 
 <br>
 
@@ -15,7 +17,7 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Prince2704&label=Profile%20Views&color=3b82f6&style=for-the-badge" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/Prince2704?label=Followers&style=for-the-badge&color=7c3aed" alt="GitHub Followers" />
-  <img src="https://img.shields.io/github/stars/Prince2704?label=Stars&style=for-the-badge&color=22c55e" alt="GitHub Stars" />
+  <img src="https://img.shields.io/badge/Status-Always%20Building-22c55e?style=for-the-badge" alt="Status Badge" />
 </p>
 
 <br>
@@ -87,26 +89,33 @@
 
 <br>
 
-<h2 align="center">📊 GitHub Analytics</h2>
+<h2 align="center">📊 Developer Overview</h2>
 
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Prince2704&show_icons=true&theme=tokyonight&hide_border=true&bg_color=020617&title_color=3B82F6&icon_color=7C3AED&text_color=E5E7EB" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Prince2704&theme=tokyonight&hide_border=true&background=020617&ring=3B82F6&fire=7C3AED&currStreakLabel=3B82F6" alt="GitHub Streak" />
-</p>
-
-<br>
-
-<p align="center">
-  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prince2704&layout=compact&theme=tokyonight&hide_border=true&bg_color=020617&title_color=3B82F6&text_color=E5E7EB" alt="Top Languages" />
-</p>
-
-<br>
-
-<h2 align="center">📈 Contribution Graph</h2>
-
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Prince2704&bg_color=020617&color=E5E7EB&line=3B82F6&point=7C3AED&area=true&hide_border=true" alt="GitHub Activity Graph" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center" width="33%">
+      <h3>🚀 Frontend</h3>
+      <p>HTML</p>
+      <p>CSS</p>
+      <p>JavaScript</p>
+      <p>React</p>
+    </td>
+    <td align="center" width="33%">
+      <h3>🗄️ Database</h3>
+      <p>MySQL</p>
+      <p>MongoDB</p>
+      <p>Data Handling</p>
+      <p>Backend Basics</p>
+    </td>
+    <td align="center" width="33%">
+      <h3>🌱 Learning</h3>
+      <p>Python</p>
+      <p>Java</p>
+      <p>Golang</p>
+      <p>Problem Solving</p>
+    </td>
+  </tr>
+</table>
 
 <br>
 
@@ -134,6 +143,39 @@
     </td>
   </tr>
 </table>
+
+<br>
+
+<h2 align="center">🎯 Current Focus</h2>
+
+<table align="center">
+  <tr>
+    <td align="center" width="25%">
+      <h3>⚡ Build</h3>
+      <p>Real-world projects</p>
+    </td>
+    <td align="center" width="25%">
+      <h3>📚 Learn</h3>
+      <p>Java and Golang</p>
+    </td>
+    <td align="center" width="25%">
+      <h3>🧠 Improve</h3>
+      <p>Problem solving</p>
+    </td>
+    <td align="center" width="25%">
+      <h3>🚀 Grow</h3>
+      <p>As a developer</p>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<h2 align="center">✨ Quote</h2>
+
+<p align="center">
+  <b>Always building, always learning, always improving.</b>
+</p>
 
 <br>
 
