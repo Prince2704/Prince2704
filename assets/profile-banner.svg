@@ -1,1 +1,299 @@
+<svg width="1448" height="1086" viewBox="0 0 1448 1086" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="18%" r="85%">
+      <stop offset="0%" stop-color="#08203D"/>
+      <stop offset="45%" stop-color="#061321"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
 
+    <linearGradient id="bluePurple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="45%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+
+    <linearGradient id="greenBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22C55E"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+
+    <linearGradient id="pinkOrange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F472B6"/>
+      <stop offset="50%" stop-color="#FB7185"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="strongGlow">
+      <feGaussianBlur stdDeviation="14" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="cardShadow">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+
+    <style>
+      .title {
+        font-family: Inter, Segoe UI, Arial, sans-serif;
+        font-weight: 900;
+        fill: #F8FAFC;
+      }
+
+      .text {
+        font-family: Inter, Segoe UI, Arial, sans-serif;
+        font-weight: 700;
+        fill: #F8FAFC;
+      }
+
+      .muted {
+        font-family: Inter, Segoe UI, Arial, sans-serif;
+        font-weight: 500;
+        fill: #CBD5E1;
+      }
+
+      .small {
+        font-family: Inter, Segoe UI, Arial, sans-serif;
+        font-weight: 700;
+        fill: #E5E7EB;
+      }
+
+      .card {
+        fill: #061321;
+        stroke: #16324F;
+        stroke-width: 2;
+      }
+
+      .tile {
+        fill: #071827;
+        stroke: #243B55;
+        stroke-width: 2;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1448" height="1086" fill="url(#bgGlow)"/>
+
+  <!-- Decorative particles -->
+  <circle cx="80" cy="95" r="2" fill="#2563EB" opacity="0.55"/>
+  <circle cx="148" cy="135" r="1.5" fill="#60A5FA" opacity="0.45"/>
+  <circle cx="1330" cy="72" r="2" fill="#60A5FA" opacity="0.45"/>
+  <circle cx="1120" cy="120" r="1.5" fill="#A855F7" opacity="0.65"/>
+  <circle cx="320" cy="980" r="1.5" fill="#38BDF8" opacity="0.5"/>
+  <circle cx="1268" cy="924" r="2" fill="#3B82F6" opacity="0.5"/>
+  <circle cx="1240" cy="238" r="1.5" fill="#22C55E" opacity="0.4"/>
+  <circle cx="62" cy="758" r="1.5" fill="#A855F7" opacity="0.55"/>
+
+  <!-- Neon corner -->
+  <path d="M1362 0 C1386 42 1410 18 1448 64" stroke="#2563EB" stroke-width="4" filter="url(#strongGlow)" opacity="0.9"/>
+
+  <!-- Header Card -->
+  <rect x="20" y="22" width="1408" height="438" rx="28" class="card" opacity="0.96" filter="url(#cardShadow)"/>
+
+  <!-- Avatar Circle -->
+  <circle cx="230" cy="230" r="150" fill="#050B14" stroke="url(#bluePurple)" stroke-width="7" filter="url(#softGlow)"/>
+
+  <!-- Developer Avatar -->
+  <path d="M150 302 C160 250 190 225 230 225 C270 225 302 250 314 302" stroke="#F8FAFC" stroke-width="5" stroke-linecap="round"/>
+  <path d="M178 183 C186 142 213 124 244 128 C275 132 298 150 300 184" stroke="#F8FAFC" stroke-width="4" stroke-linecap="round"/>
+  <path d="M194 158 C204 130 230 137 238 152 C252 134 278 142 286 160" stroke="#F8FAFC" stroke-width="4" stroke-linecap="round"/>
+  <path d="M185 185 C193 173 205 168 220 171" stroke="#F8FAFC" stroke-width="4" stroke-linecap="round"/>
+  <path d="M242 171 C258 166 275 174 283 187" stroke="#F8FAFC" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="205" cy="205" r="18" stroke="#F8FAFC" stroke-width="4"/>
+  <circle cx="255" cy="205" r="18" stroke="#F8FAFC" stroke-width="4"/>
+  <path d="M223 205 H237" stroke="#F8FAFC" stroke-width="4"/>
+  <path d="M202 310 L178 286 L202 262" stroke="#F8FAFC" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M258 262 L282 286 L258 310" stroke="#F8FAFC" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M238 260 L220 312" stroke="#F8FAFC" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Intro Text -->
+  <text x="430" y="112" font-size="34" class="title">
+    A passionate <tspan fill="#60A5FA">frontend developer</tspan> 🚀
+  </text>
+
+  <text x="430" y="160" font-size="31" class="title">
+    <tspan fill="#A855F7">2nd-year student</tspan> navigating between
+  </text>
+
+  <text x="430" y="202" font-size="31" class="title">
+    gears &amp; code 💻
+  </text>
+
+  <text x="430" y="250" font-size="29" class="text">
+    Confident in HTML, CSS, JS, React, MySQL,
+  </text>
+
+  <text x="430" y="292" font-size="29" class="text">
+    MongoDB 🍃, Learning Python 🐍, one script
+  </text>
+
+  <text x="430" y="334" font-size="29" class="text">
+    at a time 🔧
+  </text>
+
+  <text x="430" y="382" font-size="29" class="text">
+    Mechanical engineering fan who ended up
+  </text>
+
+  <text x="430" y="424" font-size="29" class="text">
+    writing JavaScript! Always building, always curious from India 🇮🇳
+  </text>
+
+  <!-- Divider -->
+  <line x1="1030" y1="80" x2="1030" y2="402" stroke="#334155" stroke-width="2"/>
+
+  <!-- Profile Views -->
+  <rect x="1076" y="132" width="108" height="104" rx="22" class="tile"/>
+  <text x="1107" y="200" font-family="Arial, sans-serif" font-size="48" fill="#7C9CFF">◉</text>
+
+  <text x="1220" y="164" font-size="25" class="muted">
+    Profile views
+  </text>
+
+  <text x="1220" y="220" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="54" font-weight="900" fill="#3B82F6">
+    97
+  </text>
+
+  <!-- Follow Box -->
+  <rect x="1076" y="276" width="274" height="116" rx="22" class="tile"/>
+  <text x="1102" y="330" font-size="22" class="muted" font-weight="800">
+    FOLLOW
+  </text>
+
+  <text x="1102" y="372" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="32" font-weight="900" fill="#3B82F6">
+    @PRINCE27040
+  </text>
+
+  <!-- About Card -->
+  <rect x="20" y="484" width="694" height="310" rx="24" class="card" opacity="0.96" filter="url(#cardShadow)"/>
+
+  <text x="56" y="532" font-family="Arial, sans-serif" font-size="32" fill="#3B82F6">♙</text>
+  <text x="102" y="532" font-size="30" class="title">About me</text>
+
+  <line x1="88" y1="596" x2="88" y2="740" stroke="#475569" stroke-width="2"/>
+
+  <circle cx="88" cy="592" r="28" fill="#2563EB"/>
+  <text x="73" y="603" font-family="Arial, sans-serif" font-size="28" fill="white">▣</text>
+
+  <text x="148" y="580" font-size="22" class="muted">
+    I’m currently working on
+  </text>
+
+  <text x="148" y="612" font-size="25" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="850" fill="#3B82F6">
+    Hospital Management system.
+  </text>
+
+  <circle cx="88" cy="668" r="28" fill="#22C55E"/>
+  <text x="74" y="678" font-family="Arial, sans-serif" font-size="28" fill="white">↗</text>
+
+  <text x="148" y="656" font-size="22" class="muted">
+    I’m currently learning
+  </text>
+
+  <text x="148" y="688" font-size="25" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="850" fill="#22C55E">
+    Java and golang.
+  </text>
+
+  <circle cx="88" cy="744" r="28" fill="#7C3AED"/>
+  <text x="72" y="754" font-family="Arial, sans-serif" font-size="27" fill="white">✉</text>
+
+  <text x="148" y="732" font-size="22" class="muted">
+    to reach me
+  </text>
+
+  <text x="148" y="764" font-size="25" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="850" fill="#8B5CF6">
+    princeraj01234@yahoo.com
+  </text>
+
+  <!-- Connect Card -->
+  <rect x="736" y="484" width="692" height="310" rx="24" class="card" opacity="0.96" filter="url(#cardShadow)"/>
+
+  <text x="774" y="552" font-family="Arial, sans-serif" font-size="34" fill="#3B82F6">🔗</text>
+  <text x="824" y="552" font-size="30" class="title">
+    Connect with me
+  </text>
+
+  <!-- Social Tiles -->
+  <rect x="770" y="596" width="112" height="108" rx="18" class="tile"/>
+  <text x="803" y="666" font-family="Arial, sans-serif" font-size="46" fill="#1DA1F2">𝕏</text>
+
+  <rect x="900" y="596" width="112" height="108" rx="18" class="tile"/>
+  <text x="929" y="666" font-family="Arial, sans-serif" font-size="48" font-weight="900" fill="#0A66C2">in</text>
+
+  <rect x="1030" y="596" width="112" height="108" rx="18" class="tile"/>
+  <text x="1058" y="666" font-family="Arial, sans-serif" font-size="42" font-weight="900" fill="#F8FAFC">GH</text>
+
+  <rect x="1160" y="596" width="112" height="108" rx="18" class="tile"/>
+  <text x="1188" y="666" font-family="Arial, sans-serif" font-size="42" font-weight="900" fill="#F472B6">IG</text>
+
+  <rect x="1290" y="596" width="112" height="108" rx="18" class="tile"/>
+  <text x="1320" y="666" font-family="Arial, sans-serif" font-size="42" font-weight="900" fill="#F59E0B">LC</text>
+
+  <!-- Languages Card -->
+  <rect x="20" y="812" width="1408" height="224" rx="24" class="card" opacity="0.96" filter="url(#cardShadow)"/>
+
+  <text x="50" y="858" font-family="Arial, sans-serif" font-size="30" fill="#3B82F6">▣</text>
+  <text x="102" y="858" font-size="30" class="title">
+    Languages and Tools
+  </text>
+
+  <!-- Tool Tiles -->
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="800">
+    <rect x="50" y="884" width="98" height="134" rx="14" class="tile"/>
+    <circle cx="99" cy="932" r="28" fill="#14B8A6"/>
+    <text x="75" y="944" font-size="28" fill="white">∞</text>
+    <text x="66" y="992" font-size="20" fill="#E5E7EB">Arduino</text>
+
+    <rect x="164" y="884" width="108" height="134" rx="14" class="tile"/>
+    <text x="188" y="946" font-size="38" fill="#E5E7EB">aws</text>
+    <text x="194" y="992" font-size="20" fill="#E5E7EB">AWS</text>
+
+    <rect x="288" y="884" width="108" height="134" rx="14" class="tile"/>
+    <text x="313" y="946" font-size="34" fill="#F97316">BL</text>
+    <text x="314" y="992" font-size="20" fill="#E5E7EB">Blender</text>
+
+    <rect x="412" y="884" width="108" height="134" rx="14" class="tile"/>
+    <text x="449" y="946" font-size="44" fill="#93C5FD">C</text>
+    <text x="456" y="992" font-size="20" fill="#E5E7EB">C</text>
+
+    <rect x="536" y="884" width="108" height="134" rx="14" class="tile"/>
+    <text x="561" y="946" font-size="36" fill="#38BDF8">CSS</text>
+    <text x="562" y="992" font-size="20" fill="#E5E7EB">CSS3</text>
+
+    <rect x="660" y="884" width="108" height="134" rx="14" class="tile"/>
+    <text x="683" y="946" font-size="34" fill="#F97316">HTML</text>
+    <text x="686" y="992" font-size="20" fill="#E5E7EB">HTML5</text>
+
+    <rect x="784" y="884" width="108" height="134" rx="14" class="tile"/>
+    <rect x="819" y="912" width="46" height="46" fill="#FACC15"/>
+    <text x="826" y="947" font-size="30" fill="#111827">JS</text>
+    <text x="800" y="992" font-size="20" fill="#E5E7EB">JavaScript</text>
+
+    <rect x="908" y="884" width="108" height="134" rx="14" class="tile"/>
+    <text x="933" y="946" font-size="40" fill="#22D3EE">⚛</text>
+    <text x="936" y="992" font-size="20" fill="#E5E7EB">React</text>
+
+    <rect x="1032" y="884" width="108" height="134" rx="14" class="tile"/>
+    <text x="1052" y="946" font-size="32" fill="#E5E7EB">SQL</text>
+    <text x="1054" y="992" font-size="20" fill="#E5E7EB">MySQL</text>
+
+    <rect x="1156" y="884" width="108" height="134" rx="14" class="tile"/>
+    <text x="1196" y="946" font-size="42" fill="#22C55E">⬥</text>
+    <text x="1176" y="992" font-size="20" fill="#E5E7EB">MongoDB</text>
+
+    <rect x="1280" y="884" width="108" height="134" rx="14" class="tile"/>
+    <text x="1310" y="946" font-size="38" fill="#60A5FA">Py</text>
+    <text x="1308" y="992" font-size="20" fill="#E5E7EB">Python</text>
+  </g>
+</svg>
