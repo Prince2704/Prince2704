@@ -2,7 +2,7 @@
 
 <!-- BANNER_START -->
 <p align="center">
-  <img src="./assets/banner-1.svg" width="100%" alt="Prince Raj Developer Banner" />
+  <img src="./assets/banner-2.svg" width="100%" alt="Prince Raj Developer Banner" />
 </p>
 <!-- BANNER_END -->
 
